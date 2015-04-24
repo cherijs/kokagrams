@@ -86,6 +86,270 @@ function kokagrams_register_settings()
         );
         add_option("kokagrams_settings", $settings, '', 'yes');
     }
+
+
+
+    if( function_exists('register_field_group') ):
+
+    register_field_group(array (
+        'key' => 'group_547d9231cfc2d',
+        'title' => 'Kokagrams',
+        'fields' => array (
+            array (
+                'key' => 'field_547d926348216',
+                'label' => 'Instagram User',
+                'name' => 'user',
+                'prefix' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d927748217',
+                'label' => 'Full Name',
+                'name' => 'user_fullname',
+                'prefix' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d928648218',
+                'label' => 'User Picture',
+                'name' => 'user_picture',
+                'prefix' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d928648218a',
+                'label' => 'Instagram Picture',
+                'name' => 'instagram_picture',
+                'prefix' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d928648218a',
+                'label' => 'Content',
+                'name' => 'instagram_content',
+                'prefix' => '',
+                'type' => 'textarea',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d929848219',
+                'label' => 'Location Name',
+                'name' => 'location_name',
+                'prefix' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d923f48214',
+                'label' => 'Lat',
+                'name' => 'lat',
+                'prefix' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d925748215',
+                'label' => 'Lng',
+                'name' => 'lng',
+                'prefix' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d92b04821a',
+                'label' => 'Video url',
+                'name' => 'video_url',
+                'prefix' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+                'readonly' => 0,
+                'disabled' => 0,
+            ),
+            array (
+                'key' => 'field_547d92be4821b',
+                'label' => 'Image url',
+                'name' => 'img_url',
+                'prefix' => '',
+                'type' => 'url',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+            ),
+            array (
+                'key' => 'field_547d92fd56a5f',
+                'label' => 'Place',
+                'name' => 'place',
+                'prefix' => '',
+                'type' => 'google_map',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'center_lat' => '',
+                'center_lng' => '',
+                'zoom' => '',
+                'height' => '',
+            ),
+        ),
+        'location' => array (
+            array (
+                array (
+                    'param' => 'post_type',
+                    'operator' => '==',
+                    'value' => 'kokagrams',
+                ),
+            ),
+        ),
+        'menu_order' => 0,
+        'position' => 'normal',
+        'style' => 'default',
+        'label_placement' => 'top',
+        'instruction_placement' => 'label',
+        'hide_on_screen' => '',
+    ));
+
+    endif;
+
+
 }
 
 add_action('admin_init', 'kokagrams_register_settings');
@@ -272,12 +536,12 @@ function kokagrams_display_settings()
     $kokagrams_import_limit = (isset($settings['kokagrams_import_limit']) ? $settings['kokagrams_import_limit'] : '');
     $kokagrams_import_interval = (isset($settings['kokagrams_import_interval']) ? $settings['kokagrams_import_interval'] : '');
 ?>
-	
-	<div class="wrap">
-		<h2 id="kokagramswelcomeTitle"><?php
+    
+    <div class="wrap">
+        <h2 id="kokagramswelcomeTitle"><?php
     echo KOKAGRAMS_PLUGIN_NAME; ?></h2>
 
-		<?php
+        <?php
     if (isset($_GET['unlink'])):
         if ($_GET['unlink'] === 'true'):
             $settings = get_option("kokagrams_settings");
@@ -287,43 +551,43 @@ function kokagrams_display_settings()
             $settings['kokagrams_auth_user'] = '';
             $updated = update_option("kokagrams_settings", $settings);
 ?>
-			<div id="setting-error-settings_updated" class="updated settings-error"> 
-				<p><strong><?php
+            <div id="setting-error-settings_updated" class="updated settings-error"> 
+                <p><strong><?php
             _e('Your instagram access token was deleted, but you also need to revoke permissions from this plugin, <a href="https://instagram.com/accounts/manage_access" target="_blank">click here</a> and revoke access to the "Kokagrams Importer" app.', 'kokagrams'); ?></strong></p>
-			</div>
-		<?php
+            </div>
+        <?php
         endif;
     endif;
 ?>
-		
+        
 
-		<?php
+        <?php
     if (isset($_GET['error'])):
 ?>
-			<div id="setting-error-settings_updated" class="updated settings-error"> 
-				<p><strong><?php
+            <div id="setting-error-settings_updated" class="updated settings-error"> 
+                <p><strong><?php
         _e('Error', 'kokagrams'); ?></strong></p>
-			</div>
-		<?php
+            </div>
+        <?php
     endif;
 ?>
 
 
-		<?php
+        <?php
     if (isset($_GET['updated']))
     if ('true' == esc_attr($_GET['updated'])):
 ?>
-		<div id="setting-error-settings_updated" class="updated settings-error"> 
-			<p><strong><?php
+        <div id="setting-error-settings_updated" class="updated settings-error"> 
+            <p><strong><?php
         _e('Settings saved.', 'kokagrams'); ?></strong></p>
-		</div>
-		<?php
+        </div>
+        <?php
     endif;
 ?>
 
-		<?php
+        <?php
     if (isset($_GET['kokagrams_auth'])): ?>
-			<?php
+            <?php
         if ($_GET['kokagrams_auth'] === 'success'):
             $settings = get_option("kokagrams_settings");
             $settings['kokagrams_auth'] = 'yes';
@@ -332,45 +596,45 @@ function kokagrams_display_settings()
             $settings['kokagrams_auth_user'] = urldecode($_GET['username']);
             $updated = update_option("kokagrams_settings", $settings);
 ?>
-				<div id="setting-error-settings_updated" class="updated settings-error"> 
-					<p><strong><?php
+                <div id="setting-error-settings_updated" class="updated settings-error"> 
+                    <p><strong><?php
             _e('Authorization succeeded!', 'kokagrams'); ?></strong></p>
-				</div>
-			<?php
+                </div>
+            <?php
         else: ?>
-				<div id="setting-error-settings_updated" class="error settings-error"> 
-					<p><strong><?php
+                <div id="setting-error-settings_updated" class="error settings-error"> 
+                    <p><strong><?php
             _e('There was an error, try again...', 'kokagrams'); ?></strong></p>
-				</div>
-			<?php
+                </div>
+            <?php
         endif; ?>
-		<?php
+        <?php
     endif; ?>
 
-		<?php
+        <?php
     if ($settings['kokagrams_auth'] === 'no'):
         $kokagrams_redirect_url = kokagrams_get_current_url();
 ?>
-			<p><?php
+            <p><?php
         _e('Click to be taken to Instagram\'s site to securely authorize this plugin for use with your account.', 'kokagrams'); ?></p>
-			<a href="<?php
+            <a href="<?php
         echo KOKAGRAMS_AUTH_URL; ?>?redirect_url=<?php
         echo $kokagrams_redirect_url; ?>" target="_self" class="button-primary authenticate"><?php
         _e('Secure Authentication', 'kokagrams'); ?></a>
-		<?php
+        <?php
     else:
 ?>
 
-			<?php
+            <?php
         if (isset($_GET['tab'])) kokagrams_admin_tabs($_GET['tab']);
         else kokagrams_admin_tabs('homepage');
 ?>
 
-			<div id="poststuff">
-				<form class="kokagrams_settings_form" method="post" action="<?php
+            <div id="poststuff">
+                <form class="kokagrams_settings_form" method="post" action="<?php
         admin_url('admin.php?page=kokagrams'); ?>">
 
-				<?php
+                <?php
         wp_nonce_field("kokagrams-settings-page");
         if ($pagenow == 'admin.php' && $_GET['page'] == 'kokagrams') {
             if (isset($_GET['tab'])) $tab = $_GET['tab'];
@@ -381,16 +645,16 @@ function kokagrams_display_settings()
             case 'homepage':
                 $kokagrams_total_users = count($kokagrams_user);
 ?>
-								<tr valign="top">
-									<td colspan="2">
-										<h2><?php
+                                <tr valign="top">
+                                    <td colspan="2">
+                                        <h2><?php
                 _e('Team &amp; Tags', 'kokagrams'); ?></h2>
-										<hr>
-										<p><?php
+                                        <hr>
+                                        <p><?php
                 _e('This is where your Instagram users are managed. Click <span id="kokagramsUserLabel">"Add New Team Member"</span> to add <span id="kokagramsUserNumber">your first one</span>.', 'kokagrams'); ?></p>
-									</td>
-								</tr>
-					<?php
+                                    </td>
+                                </tr>
+                    <?php
                 $kokagrams_user_fields = 10;
                 $active_users = 0;
                 for ($i = 1; $i <= $kokagrams_total_users; $i++):
@@ -400,223 +664,223 @@ function kokagrams_display_settings()
                     if ((!empty($user) && !empty($user_id))):
                         $active_users++;
 ?>
-								
-								<tr valign="top" class="kokagrams_user_hashtag">
-									<td scope="row">
+                                
+                                <tr valign="top" class="kokagrams_user_hashtag">
+                                    <td scope="row">
 
-										<table class="form-table kokagrams-hover-table"> 
-											<tr valign="top">
-												<td scope="row"><label><?php
+                                        <table class="form-table kokagrams-hover-table"> 
+                                            <tr valign="top">
+                                                <td scope="row"><label><?php
                         _e('Instagram Username:', 'kokagrams'); ?></label></th>
-												<td>
-													<input name="kokagrams_user[]" type="text" id="kokagrams_user" class="regular-text kokagrams-float-left kokagrams-UserValidation" value="<?php
+                                                <td>
+                                                    <input name="kokagrams_user[]" type="text" id="kokagrams_user" class="regular-text kokagrams-float-left kokagrams-UserValidation" value="<?php
                         echo @$user; ?>" placeholder="johndoe">
-													<div class="kokagrams-live-icon">
-														<img src="<?php
+                                                    <div class="kokagrams-live-icon">
+                                                        <img src="<?php
                         echo plugins_url('/images/loading.gif', __FILE__) ?>" class="kokagrams-loading hidden" />
-														<img src="<?php
+                                                        <img src="<?php
                         echo plugins_url('/images/yes.png', __FILE__) ?>" class="kokagrams-yes hidden" />
-														<img src="<?php
+                                                        <img src="<?php
                         echo plugins_url('/images/no.png', __FILE__) ?>" class="kokagrams-no hidden" />
-														<img src="<?php
+                                                        <img src="<?php
                         echo plugins_url('/images/alert.png', __FILE__) ?>" class="kokagrams-alert hidden" />
-													</div>
-													<input name="kokagrams_user_id[]" type="hidden" id="kokagrams_user_id" value="<?php
+                                                    </div>
+                                                    <input name="kokagrams_user_id[]" type="hidden" id="kokagrams_user_id" value="<?php
                         echo @$user_id; ?>">
-													<div class="clearfix"></div>
-													<a href="#" class="kokagrams-trash"><img src="<?php
+                                                    <div class="clearfix"></div>
+                                                    <a href="#" class="kokagrams-trash"><img src="<?php
                         echo plugins_url('/images/trash.png', __FILE__) ?>"  /></a>
-													<p class="description hidden kokagrams-message"><?php
+                                                    <p class="description hidden kokagrams-message"><?php
                         _e('We can\'t import photos from this account because it is private', 'kokagrams'); ?></p>
-												</td>
-											</tr>
-											<tr valign="top" >
-												<td scope="row"><label><?php
+                                                </td>
+                                            </tr>
+                                            <tr valign="top" >
+                                                <td scope="row"><label><?php
                         _e('Import photos tagged:', 'kokagrams'); ?></label></th>
-												<td>
-													<input name="kokagrams_hashtag[]" type="text" id="kokagrams_hashtag" class="regular-text" value="<?php
+                                                <td>
+                                                    <input name="kokagrams_hashtag[]" type="text" id="kokagrams_hashtag" class="regular-text" value="<?php
                         echo @$hashtag; ?>" placeholder="example: cats,dogs,parrots">
-													<p class="description"><?php
+                                                    <p class="description"><?php
                         _e('Insert the hashtags without # and separated by comma, don\'t use blank spaces.', 'kokagrams'); ?></p>
-												</td>
-											</tr>
-											
-										</table>
+                                                </td>
+                                            </tr>
+                                            
+                                        </table>
 
-									</td>
-									
-								</tr>
-								<tr valign="top" class="kokagrams_user_tr">
-									<td colspan="2">
-										<hr>
-									</td>
-								</tr>
-											
-					<?php
+                                    </td>
+                                    
+                                </tr>
+                                <tr valign="top" class="kokagrams_user_tr">
+                                    <td colspan="2">
+                                        <hr>
+                                    </td>
+                                </tr>
+                                            
+                    <?php
                     endif;
                 endfor;
                 if ($active_users == 0):
 ?>
-								<tr valign="top" class="kokagrams_user_hashtag hidden">
-									<td scope="row">
+                                <tr valign="top" class="kokagrams_user_hashtag hidden">
+                                    <td scope="row">
 
-										<table class="form-table kokagrams-hover-table"> 
-											<tr valign="top">
-												<td scope="row"><label><?php
+                                        <table class="form-table kokagrams-hover-table"> 
+                                            <tr valign="top">
+                                                <td scope="row"><label><?php
                     _e('Instagram Username:', 'kokagrams'); ?></label></th>
-												<td>
-													<input name="kokagrams_user[]" type="text" id="kokagrams_user" class="regular-text kokagrams-float-left kokagrams-UserValidation" value="<?php
+                                                <td>
+                                                    <input name="kokagrams_user[]" type="text" id="kokagrams_user" class="regular-text kokagrams-float-left kokagrams-UserValidation" value="<?php
                     echo @$user; ?>" placeholder="johndoe">
-													<div class="kokagrams-live-icon">
-														<img src="<?php
+                                                    <div class="kokagrams-live-icon">
+                                                        <img src="<?php
                     echo plugins_url('/images/loading.gif', __FILE__) ?>" class="kokagrams-loading hidden" />
-														<img src="<?php
+                                                        <img src="<?php
                     echo plugins_url('/images/yes.png', __FILE__) ?>" class="kokagrams-yes hidden" />
-														<img src="<?php
+                                                        <img src="<?php
                     echo plugins_url('/images/no.png', __FILE__) ?>" class="kokagrams-no hidden" />
-														<img src="<?php
+                                                        <img src="<?php
                     echo plugins_url('/images/alert.png', __FILE__) ?>" class="kokagrams-alert hidden" />
-													</div>
-													<input name="kokagrams_user_id[]" type="hidden" id="kokagrams_user_id" value="<?php
+                                                    </div>
+                                                    <input name="kokagrams_user_id[]" type="hidden" id="kokagrams_user_id" value="<?php
                     echo @$user_id; ?>">
-													<div class="clearfix"></div>
-													<a href="#" class="kokagrams-trash"><img src="<?php
+                                                    <div class="clearfix"></div>
+                                                    <a href="#" class="kokagrams-trash"><img src="<?php
                     echo plugins_url('/images/trash.png', __FILE__) ?>"  /></a>
-													<p class="description hidden kokagrams-message"><?php
+                                                    <p class="description hidden kokagrams-message"><?php
                     echo __('We can\'t import photos from this account because it is private', 'kokagrams'); ?></p>
-												</td>
-											</tr>
-											<tr valign="top" >
-												<td scope="row"><label><?php
+                                                </td>
+                                            </tr>
+                                            <tr valign="top" >
+                                                <td scope="row"><label><?php
                     _e('Import photos tagged:', 'kokagrams'); ?></label></th>
-												<td>
-													<input name="kokagrams_hashtag[]" type="text" id="kokagrams_hashtag" class="regular-text" value="<?php
+                                                <td>
+                                                    <input name="kokagrams_hashtag[]" type="text" id="kokagrams_hashtag" class="regular-text" value="<?php
                     echo @$hashtag; ?>" placeholder="example: cats,dogs,parrots">
-													<p class="description"><?php
+                                                    <p class="description"><?php
                     _e('Insert the hashtags without # and separated by comma, don\'t use blank spaces.', 'kokagrams'); ?></p>
-												</td>
-											</tr>
-											
-										</table>
+                                                </td>
+                                            </tr>
+                                            
+                                        </table>
 
-									</td>
-									
-								</tr>
-								<tr valign="top" class="kokagrams_user_tr hidden">
-									<td colspan="2">
-										<hr>
-									</td>
-								</tr>
-					<?php
+                                    </td>
+                                    
+                                </tr>
+                                <tr valign="top" class="kokagrams_user_tr hidden">
+                                    <td colspan="2">
+                                        <hr>
+                                    </td>
+                                </tr>
+                    <?php
                 endif;
 ?>
-							</table>
-							<table class="form-table">
-								<tr valign="top">
-									<td  scope="row">
-										<?php
+                            </table>
+                            <table class="form-table">
+                                <tr valign="top">
+                                    <td  scope="row">
+                                        <?php
                 if ($kokagrams_user_fields == $active_users): ?>
-										<a href="#" class="button-secondary" id="kokagrams-addUser"><?php
+                                        <a href="#" class="button-secondary" id="kokagrams-addUser"><?php
                     _e('Add New Team Member', 'kokagrams'); ?></a>
-										<?php
+                                        <?php
                 else: ?>
-										<a href="#" class="button-secondary" id="kokagrams-addUser"><?php
+                                        <a href="#" class="button-secondary" id="kokagrams-addUser"><?php
                     _e('Add Another Team Member', 'kokagrams'); ?></a>
-										<?php
+                                        <?php
                 endif; ?>
-									</td>
-								</tr>
-								<tr valign="top">
-									<td colspan="2">
-										<h2><?php
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td colspan="2">
+                                        <h2><?php
                 _e('Public Tags', 'kokagrams'); ?></h2>
-										<hr>
-										<p><?php
+                                        <hr>
+                                        <p><?php
                 _e('Tags added here will import any photo found on Instagram matching these tags, even if they are not owned by a team member above. We recommend setting "Default Post Status" (under the Import Options tab) to "Draft", "Pending" or "Private" if you use this option.', 'kokagrams'); ?></p>
-									</td>
-								</tr>
-								<tr valign="top">
-									<td scope="row">
-										<table class="form-table">
-											<tr valign="top">
-												<td scope="row">
-													<label for="kokagrams_hashtag"><?php
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td scope="row">
+                                        <table class="form-table">
+                                            <tr valign="top">
+                                                <td scope="row">
+                                                    <label for="kokagrams_hashtag"><?php
                 _e('Publicly Searchable Tags:', 'kokagrams'); ?></label>
-												</td>
-												<td>
-													<input name="kokagrams_public_hashtag" type="text" id="kokagrams_public_hashtag" class="regular-text" value="<?php
+                                                </td>
+                                                <td>
+                                                    <input name="kokagrams_public_hashtag" type="text" id="kokagrams_public_hashtag" class="regular-text" value="<?php
                 echo $kokagrams_public_hashtag; ?>" placeholder="example: cats,dogs,parrots">
-													<p class="description"><?php
+                                                    <p class="description"><?php
                 _e('Insert the hashtags without # and separated by comma, don\'t use blank spaces.', 'kokagrams'); ?></p>
-												</td>
-											</tr>
-											<tr valign="top">
-												<td colspan="2">
-													<hr>
-												</td>
-											</tr>
-										</table>
-									</td>
-												
-								</tr>
+                                                </td>
+                                            </tr>
+                                            <tr valign="top">
+                                                <td colspan="2">
+                                                    <hr>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                                
+                                </tr>
 
 
 
 
-								<tr valign="top">
-									<td colspan="2">
-										<h2><?php
+                                <tr valign="top">
+                                    <td colspan="2">
+                                        <h2><?php
                 _e('Places', 'kokagrams'); ?></h2>
-										<hr>
-										<p><?php
+                                        <hr>
+                                        <p><?php
                 _e('Places id added here will import any photo these id, even if they are not owned by a team member above.', 'kokagrams'); ?></p>
-									</td>
-								</tr>
-								<tr valign="top">
-									<td scope="row">
-										<table class="form-table">
-											<tr valign="top">
-												<td scope="row">
-													<label for="kokagrams_placeid"><?php
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td scope="row">
+                                        <table class="form-table">
+                                            <tr valign="top">
+                                                <td scope="row">
+                                                    <label for="kokagrams_placeid"><?php
                 _e('Places id:', 'kokagrams'); ?></label>
-												</td>
-												<td>
-													<input name="kokagrams_public_placeid" type="text" id="kokagrams_public_placeid" class="regular-text" value="<?php
+                                                </td>
+                                                <td>
+                                                    <input name="kokagrams_public_placeid" type="text" id="kokagrams_public_placeid" class="regular-text" value="<?php
                 echo $kokagrams_public_placeid; ?>" placeholder="example: 246274166,3348708">
-													<p class="description"><?php
+                                                    <p class="description"><?php
                 _e('Insert the places id without # and separated by comma, don\'t use blank spaces.', 'kokagrams'); ?></p>
-												</td>
-											</tr>
-											<tr valign="top">
-												<td colspan="2">
-													<hr>
-												</td>
-											</tr>
-										</table>
-									</td>
-												
-								</tr>
+                                                </td>
+                                            </tr>
+                                            <tr valign="top">
+                                                <td colspan="2">
+                                                    <hr>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                                
+                                </tr>
 
 
-								
-								<?php
+                                
+                                <?php
                 break;
 
             case 'post_type':
 ?>
-								<tr valign="top">
-									<th colspan="2">
-										<h2><?php
+                                <tr valign="top">
+                                    <th colspan="2">
+                                        <h2><?php
                 _e('Import Post Rules', 'kokagrams'); ?></h2>
-										<hr>
-									</th>
-								</tr>
-								<tr>
-									<th scope="row"><label for="kokagrams_post_type"><?php
+                                        <hr>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><label for="kokagrams_post_type"><?php
                 echo __('Import to Post Type', 'kokagrams'); ?></label></th>
-									<td>
-										<select name="kokagrams_post_type" id="kokagrams_post_type">
-											<?php
+                                    <td>
+                                        <select name="kokagrams_post_type" id="kokagrams_post_type">
+                                            <?php
                 $args = array(
                     'public' => true
                 );
@@ -624,224 +888,224 @@ function kokagrams_display_settings()
                 $current_post_type = isset($kokagrams_post_type) ? $kokagrams_post_type : '';
                 foreach($post_types as $post_type):
 ?>
-													<option value="<?php
+                                                    <option value="<?php
                     echo $post_type; ?>" <?php
                     selected($current_post_type, $post_type); ?> ><?php
                     echo $post_type; ?></option>
-											<?php
+                                            <?php
                 endforeach;
 ?>
-										</select>
-										<p class="description"><?php
+                                        </select>
+                                        <p class="description"><?php
                 _e('Choose the post type that all photos will be imported as.', 'kokagrams'); ?></p>
-									</td>
-								</tr>
-								<tr valign="top">
-									<th colspan="2">
-										<h2><?php
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <th colspan="2">
+                                        <h2><?php
                 _e('Import Image Rules', 'kokagrams'); ?></h2>
-										<hr>
-									</th>
-								</tr>
+                                        <hr>
+                                    </th>
+                                </tr>
 
-								<tr valign="top">
-									<th scope="row"><label for="kokagrams_post_status"><?php
+                                <tr valign="top">
+                                    <th scope="row"><label for="kokagrams_post_status"><?php
                 _e('Default post status', 'kokagrams'); ?></label></th>
-									<td>
-										<select name="kokagrams_post_status" id="kokagrams_post_status">
-											<?php
+                                    <td>
+                                        <select name="kokagrams_post_status" id="kokagrams_post_status">
+                                            <?php
                 $draft_status = $kokagrams_post_status;
 ?>
-											<option value="publish" <?php
+                                            <option value="publish" <?php
                 selected($draft_status, 'publish'); ?>>
-												<?php
+                                                <?php
                 _e('Published - Automatically post to website', 'kokagrams'); ?>
-											</option>
-											<option value="pending" <?php
+                                            </option>
+                                            <option value="pending" <?php
                 selected($draft_status, 'pending'); ?>>
-												<?php
+                                                <?php
                 _e('Pending - Wait for moderation', 'kokagrams'); ?>
-											</option>
-											<option value="private" <?php
+                                            </option>
+                                            <option value="private" <?php
                 selected($draft_status, 'private'); ?>>
-												<?php
+                                                <?php
                 _e('Private - Must be logged in to view', 'kokagrams'); ?>
-											</option>
-										</select>
-										<p class="description"><?php
+                                            </option>
+                                        </select>
+                                        <p class="description"><?php
                 _e('Choose the post status of all the imported photos.', 'kokagrams'); ?></p>
-									</td>
-								</tr>
-								<tr valign="top">
-									<th scope="row"><?php
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <th scope="row"><?php
                 _e('Featured Image?', 'kokagrams'); ?></th>
-									<td>
-										<label for="kokagrams_featured_image">
-											<input name="kokagrams_featured_image" type="checkbox" id="kokagrams_featured_image" value="yes" <?php
+                                    <td>
+                                        <label for="kokagrams_featured_image">
+                                            <input name="kokagrams_featured_image" type="checkbox" id="kokagrams_featured_image" value="yes" <?php
                 checked($kokagrams_featured_image, 'yes'); ?>>
-											<?php
+                                            <?php
                 _e('Save imported image as featured image.', 'kokagrams'); ?>
-										</label>
-									</td>
-								</tr>
-								<tr valign="top">
-									<th scope="row"><label for="kokagrams_import_limit"><?php
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <th scope="row"><label for="kokagrams_import_limit"><?php
                 _e('Import Quantity', 'kokagrams'); ?></label></th>
-									<td>
-										<select name="kokagrams_import_limit" id="kokagrams_import_limit">
-											<?php
+                                    <td>
+                                        <select name="kokagrams_import_limit" id="kokagrams_import_limit">
+                                            <?php
                 $limit_saved = $kokagrams_import_limit;
 ?>
-											<option value="20" <?php
+                                            <option value="20" <?php
                 selected($limit_saved, '20'); ?>>
-												<?php
+                                                <?php
                 _e('20 Photos', 'kokagrams'); ?>
-											</option>
-											<option value="40" <?php
+                                            </option>
+                                            <option value="40" <?php
                 selected($limit_saved, '40'); ?>>
-												<?php
+                                                <?php
                 _e('40 Photos', 'kokagrams'); ?>
-											</option>
-											<option value="60" <?php
+                                            </option>
+                                            <option value="60" <?php
                 selected($limit_saved, '60'); ?>>
-												<?php
+                                                <?php
                 _e('60 Photos', 'kokagrams'); ?>
-											</option>
-											<option value="80" <?php
+                                            </option>
+                                            <option value="80" <?php
                 selected($limit_saved, '80'); ?>>
-												<?php
+                                                <?php
                 _e('80 Photos', 'kokagrams'); ?>
-											</option>
-											<option value="100" <?php
+                                            </option>
+                                            <option value="100" <?php
                 selected($limit_saved, '100'); ?>>
-												<?php
+                                                <?php
                 _e('100 Photos', 'kokagrams'); ?>
-											</option>
-											<option value="200" <?php
+                                            </option>
+                                            <option value="200" <?php
                 selected($limit_saved, '200'); ?>>
-												<?php
+                                                <?php
                 _e('200 Photos', 'kokagrams'); ?>
-											</option>
-										</select>
-										<p class="description"><?php
+                                            </option>
+                                        </select>
+                                        <p class="description"><?php
                 _e('Choose the number of items to query per API call.', 'kokagrams'); ?></p>
-									</td>
-								</tr>
-								<tr valign="top">
-									<th scope="row"><label for="kokagrams_import_interval"><?php
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <th scope="row"><label for="kokagrams_import_interval"><?php
                 _e('Import Interval', 'kokagrams'); ?></label></th>
-									<td>
-										<select name="kokagrams_import_interval" id="kokagrams_import_interval">
-											<?php
+                                    <td>
+                                        <select name="kokagrams_import_interval" id="kokagrams_import_interval">
+                                            <?php
                 $import_interval = $kokagrams_import_interval;
 ?>
-											<option value="oneminute" <?php
+                                            <option value="oneminute" <?php
                 selected($import_interval, 'oneminute'); ?>>
-												<?php
+                                                <?php
                 _e('Every Minute', 'kokagrams'); ?>
-											</option>
-											<option value="hourly" <?php
+                                            </option>
+                                            <option value="hourly" <?php
                 selected($import_interval, 'hourly'); ?>>
-												<?php
+                                                <?php
                 _e('Once Hourly', 'kokagrams'); ?>
-											</option>
-											<option value="twicedaily" <?php
+                                            </option>
+                                            <option value="twicedaily" <?php
                 selected($import_interval, 'twicedaily'); ?>>
-												<?php
+                                                <?php
                 _e('Twice Daily', 'kokagrams'); ?>
-											</option>
-											<option value="daily" <?php
+                                            </option>
+                                            <option value="daily" <?php
                 selected($import_interval, 'daily'); ?>>
-												<?php
+                                                <?php
                 _e('Once Daily', 'kokagrams'); ?>
-											</option>
-										</select>
-									</td>
-								</tr>
-								<?php
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <?php
                 break;
 
             case 'shortcode':
                 $no_save = true;
 ?>
-								<tr valign="top">
-									<th scope="row"><label><?php
+                                <tr valign="top">
+                                    <th scope="row"><label><?php
                 _e('Overview', 'kokagrams'); ?></label></th>
-									<td>
-										<p><?php
+                                    <td>
+                                        <p><?php
                 _e('This plugin supports <a href="http://codex.wordpress.org/Shortcode_API" target="_blank">shortcodes</a>. Include the shortcode [kokagrams] in any page where you want your photo grid to appear.', 'kokagrams'); ?></p>
-									</td>
-								</tr>
-								
-								<tr valign="top">
-									<th scope="row"><label><?php
+                                    </td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                    <th scope="row"><label><?php
                 _e('Controlling the number of photos to display', 'kokagrams'); ?></label></th>
-									<td>
-										<p><?php
+                                    <td>
+                                        <p><?php
                 _e('There is an option to limit the number of photos that appear in the grid (showing the newest first). You can enable this functionality by including photos=x in the shortcode.', 'kokagrams'); ?></p>
-										 
-										<p><?php
+                                         
+                                        <p><?php
                 _e('Example: <br /><br /><b>[kokagrams photos=12]', 'kokagrams'); ?></b></p><br />
-									</td>
-								</tr>
-								
-								<tr valign="top">
-									<th scope="row"><label><?php
+                                    </td>
+                                </tr>
+                                
+                                <tr valign="top">
+                                    <th scope="row"><label><?php
                 _e('Adding a CSS class to the shortcode', 'kokagrams'); ?></label></th>
-									<td>		 
-										<p><?php
+                                    <td>         
+                                        <p><?php
                 _e('There is also an option to add a custom class to the images. You can enable this by adding class=somecustomclass to the shortcode. A custom class is helpful for adding things like floats and other CSS to support responsive grids.', 'kokagrams'); ?></p>
-										 
-										<p><?php
+                                         
+                                        <p><?php
                 _e('Example: <br /><br /><b>[kokagrams photos=12 class=some_custom_class]', 'kokagrams'); ?></b></p>
-									</td>
-								</tr>
+                                    </td>
+                                </tr>
 
-								<tr valign="top">
-									<th scope="row"><label><?php
+                                <tr valign="top">
+                                    <th scope="row"><label><?php
                 _e('Add a CSS Grid ', 'kokagrams'); ?></label></th>
-									<td>		 
-										<p><?php
+                                    <td>         
+                                        <p><?php
                 _e('Adding this option to your shortcode will convert your photos into a 4 column responsive grid.', 'kokagrams'); ?></p>
-										 
-										<p><?php
+                                         
+                                        <p><?php
                 _e('Example: <br /><br /><b>[kokagrams photos=12 style=yes]', 'kokagrams'); ?></b></p>
-									</td>
-								</tr>
+                                    </td>
+                                </tr>
 
-								<tr valign="top">
-									<th scope="row"><label><?php
+                                <tr valign="top">
+                                    <th scope="row"><label><?php
                 _e('Add a Lightbox ', 'kokagrams'); ?></label></th>
-									<td>		 
-										<p><?php
+                                    <td>         
+                                        <p><?php
                 _e('Use this shortcode to tell the plugin if you want users to be able to click on a larger version of the photo.', 'kokagrams'); ?></p>
-										 
-										<p><?php
+                                         
+                                        <p><?php
                 _e('Example: <br /><br /><b>[kokagrams photos=12 lightbox=yes]', 'kokagrams'); ?></b></p>
-									</td>
-								</tr>
+                                    </td>
+                                </tr>
 
-								
-								<?php
+                                
+                                <?php
                 break;
 
             case 'unlink':
                 $no_save = true;
-?>	
-								<tr valign="top">
-									<td colspan="2">
-										<h2><?php
+?>  
+                                <tr valign="top">
+                                    <td colspan="2">
+                                        <h2><?php
                 _e('Unlink Your Instagram Account', 'kokagrams'); ?></h2>
-										<hr>
-										<p><?php
+                                        <hr>
+                                        <p><?php
                 _e('Use this screen to unlink your Instagram Account. If you proceed no new images will be pulled from Instagram and you will need to reactivate an account.', 'kokagrams'); ?></p>
-										<br /><br />
-										<a href="admin.php?page=kokagrams&unlink=true" id="kokagrams-unlinkAccount" class="button-primary red"><?php
+                                        <br /><br />
+                                        <a href="admin.php?page=kokagrams&unlink=true" id="kokagrams-unlinkAccount" class="button-primary red"><?php
                 _e('Unlink Instagram Account', 'kokagrams'); ?></a>
-									</td>
-								</tr>
-								
-							<?php
+                                    </td>
+                                </tr>
+                                
+                            <?php
                 break;
 
             case 'reload':
@@ -859,23 +1123,23 @@ function kokagrams_display_settings()
         }
 
 ?>
-					<p class="submit" style="clear: both;">
-						<?php
+                    <p class="submit" style="clear: both;">
+                        <?php
         if ($no_save !== true): ?>
-						<input type="submit" name="Submit" id="kokagrams-submitForm"  class="button-primary" value="<?php
+                        <input type="submit" name="Submit" id="kokagrams-submitForm"  class="button-primary" value="<?php
             _e('Save Settings', 'kokagrams'); ?>" />
-						<?php
+                        <?php
         endif; ?>
-						<input type="hidden" name="kokagrams-settings-submit" value="Y" />
-					</p>
+                        <input type="hidden" name="kokagrams-settings-submit" value="Y" />
+                    </p>
 
-				</form>
-				
-			</div>
-		<?php
+                </form>
+                
+            </div>
+        <?php
     endif;
 ?>
-	</div>
+    </div>
 <?php
 }
 
@@ -1230,6 +1494,8 @@ function kokagrams_insert_picture($data)
     }
 
     if (@$post_id && !@$post_id->errors && @$post_id > 0) {
+
+        update_post_meta($post_id, 'instagram_content', wp_strip_all_tags(kokagrams_removeEmoji($title)));
         update_post_meta($post_id, 'img_url', $img_url);
         update_post_meta($post_id, 'type', $type);
         update_post_meta($post_id, 'picid', $picid);
@@ -1338,7 +1604,7 @@ function kokagrams_check_picture($media, $hashtags_per_user)
     }
     else {
 
-        //   	echo "<pre>";
+        //      echo "<pre>";
         // var_dump($media);
         // echo "</pre>";
 
@@ -1459,10 +1725,7 @@ function kokagrams_photo_post_type_init()
         'taxonomies' => array(
             'post_tag'
         ) ,
-        'supports' => array(
-            'title',
-            'editor',
-            'thumbnail'
-        ) //,'custom-fields'
+        'supports'            => array( 'title', 'editor', 'thumbnail', 'custom-fields', )
+        
     ));
 }
