@@ -1,0 +1,34 @@
+.wp-instagram-grid{
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.wp-instagram-grid:after{
+	clear: both;
+}
+
+.wp-instagram-grid:before{
+	content: " ";
+	display: table;
+}
+
+.wp-instagram-item{
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width:25%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display:block;
+	float:left;
+	margin-bottom:25px;
+}
+
+.wp-instagram-item img{
+	width:100%;
+	height:auto;
+}

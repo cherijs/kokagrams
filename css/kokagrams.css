@@ -1,0 +1,75 @@
+/* CSS */
+
+.kokagrams-live-icon {
+  float: left;
+  display: inline;
+  padding-top: 4px;
+  padding-left: 5px;
+}
+
+.kokagrams-live-icon img {
+  width: 20px;
+  height: auto;
+}
+
+.kokagrams-float-left {
+  float: left;
+}
+
+.button-primary.red {
+  background: #cd2d2d;
+  border-color: #aa1a1a;
+  -webkit-box-shadow: inset 0 1px 0 #cd2d2d, 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px 0 #cd2d2d, 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button-primary.red:hover {
+  background: #d82b2b;
+  -webkit-box-shadow: inset 0 1px 0 #cd2d2d, 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px 0 #cd2d2d, 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.kokagrams-hover-table {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 700px;
+  position: relative;
+}
+
+.kokagrams-hover-table:hover {
+  background: #d9d9d9;
+}
+
+.kokagrams-trash {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+
+.kokagrams-trash img {
+  width: 24px;
+  height: auto;
+  display: block;
+}
+
+.kokagrams-message {
+  width: 100%;
+  float: left;
+  color: red !important;
+  font-weight: bold;
+}
+
+.mc-response {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 5px 0 10px;
+  padding: 0 !important;
+}
+
+.mc-response.error {
+  color: red;
+}
