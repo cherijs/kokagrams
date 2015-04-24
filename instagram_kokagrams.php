@@ -1255,6 +1255,7 @@ function kokagrams_insert_picture($data)
                 //     'post_content' => '<img src="'.$photoURL.'" />'
                 // );
                 // wp_update_post( $post_update );
+                update_post_meta($post_id, 'instagram_picture', $photoURL);
 
             endif;
         endif;
